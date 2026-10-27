@@ -2,6 +2,7 @@ package net.mashumaro;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.mashumaro.item.ModItems;
 import net.minecraft.resources.Identifier;
 
 import org.slf4j.Logger;
@@ -13,6 +14,6 @@ public class ChristmasMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
 	}
 }
