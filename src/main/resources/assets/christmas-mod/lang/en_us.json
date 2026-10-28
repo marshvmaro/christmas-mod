@@ -1,6 +1,8 @@
 {
   "item.christmas-mod.candy_cane": "Candy Cane",
-  "item.christmas-mod.candy_cane_shard": "Candy Cane Shard"
+  "item.christmas-mod.candy_cane_shard": "Candy Cane Shard",
+  "creativemodetab.christmas-mod.items": "Christmas Items",
+  "creativemodetab.christmas-mod.blocks": "Christmas Blocks"
 
 
 }

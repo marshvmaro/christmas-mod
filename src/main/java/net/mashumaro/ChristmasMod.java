@@ -2,6 +2,7 @@ package net.mashumaro;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.mashumaro.creativemodetab.ModCreativeModeTabs;
 import net.mashumaro.item.ModItems;
 import net.minecraft.resources.Identifier;
 
@@ -14,6 +15,8 @@ public class ChristmasMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModCreativeModeTabs.registerModCreativeModeTabs();
 		ModItems.registerModItems();
+
 	}
 }
